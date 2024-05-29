@@ -486,42 +486,42 @@ a {
 /*Lantern end*/
 
 /*Miracle in the middle of the day start*/
-.body-miracleMiddleDay{
+.body-miracleMiddleDay {
   background: radial-gradient(at 90% 15%, #97defa, #0199d3);
   background-repeat: no-repeat;
 }
 
-.section-miracleMiddleDay{
+.section-miracleMiddleDay {
   padding-top: 100px;
   margin-bottom: 20px;
 
-  &__image-first{
+  &__image-first {
     width: 20%;
     margin: -50px 0px 30px 30px;
     float: right;
     animation: turnover 120s linear 0s infinite;
   }
-  &__text{
+  &__text {
     font-size: clamp(16px, 2vw, 26px);
     line-height: 50px;
   }
-  &__text::first-letter{
+  &__text::first-letter {
     font-size: 50px;
   }
-  &__text-replica{
+  &__text-replica {
     font-style: italic;
   }
-  &__placeTime{
+  &__placeTime {
     font-size: 12px;
     line-height: 50px;
     text-align: right;
   }
-  &__image-second{
+  &__image-second {
     width: 50%;
     margin: 30px 30px 30px 0px;
     float: left;
   }
-  &__image-third{
+  &__image-third {
     width: 50%;
     margin: 20px 0px 20px 20px;
     float: right;
@@ -529,10 +529,72 @@ a {
 }
 
 @keyframes turnover {
-  from {transform:rotate(0deg);}
-  to {transform:rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /*Miracle in the middle of the day end*/
+
+/*Kaminchyk and Prominchyk start*/
+.body-kaminchykProminchyk {
+  background: #85c9a9;
+  background-repeat: no-repeat;
+}
+
+.section-kaminchykProminchyk {
+  &__text {
+    font-size: clamp(16px, 2vw, 26px);
+    line-height: 50px;
+  }
+  &__text::first-letter {
+    font-size: 50px;
+  }
+  &__text-replica {
+    font-style: italic;
+  }
+  &__placeTime {
+    font-size: 12px;
+    line-height: 50px;
+    text-align: right;
+  }
+  &__image-first {
+    width: 30%;
+    margin: 10px;
+    float: right;
+  }
+  &__image-second {
+    width: 50%;
+    margin: 10px;
+    float: left;
+    filter: grayscale(1);
+  }
+  &__image-third {
+    width: 10%;
+    margin: 10px;
+    float: right;
+  }
+  &__image-fourth {
+    width: 50%;
+    margin: 10px;
+    float: left;
+    border-radius: 30px;
+  }
+  &__image-fifth {
+    width: 25%;
+    margin: 10px;
+    float: right;
+  }
+  &__image-last {
+    width: 70%;
+    margin: 0 auto;
+    filter: none;
+  }
+}
+
+/*Kaminchyk and Prominchyk end*/
 
 @import "media";
