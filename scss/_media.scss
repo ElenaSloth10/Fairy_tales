@@ -227,3 +227,37 @@
 }
 
 /*miracleMiddleDay end*/
+
+/*Kaminchyk and Prominchyk start*/
+
+@media (max-width: 700px) {
+  .h1-kaminchykProminchyk {
+    font-size: 30px;
+    margin: 30px 0px 30px;
+  }
+  .section-kaminchykProminchyk{
+    &__text{
+      line-height: 30px;
+    }
+    &__image-first{
+      width: 40%;
+    }
+    &__image-second{
+      width: 100%;
+    }
+    &__image-third{
+      width: 20%;
+    }
+    &__image-fourth{
+      width: 100%;
+    }
+    &__image-fifth{
+      width: 35%;
+    }
+    &__image-last{
+      width: 100%;
+    }
+  }
+}
+
+/*Kaminchyk and Prominchyk end*/
