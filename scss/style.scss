@@ -597,4 +597,64 @@ a {
 
 /*Kaminchyk and Prominchyk end*/
 
+/*With zeal start*/
+.body-withZeal {
+  background: #66b5bb;
+  background-repeat: no-repeat;
+}
+
+.section-withZeal {
+  &__text {
+    font-size: clamp(16px, 2vw, 26px);
+    line-height: 50px;
+  }
+  &__text::first-letter {
+    font-size: 50px;
+  }
+  &__text-replica {
+    font-style: italic;
+  }
+  &__placeTime {
+    font-size: 12px;
+    line-height: 50px;
+    text-align: right;
+  }
+  &__image-first {
+    width: 25%;
+    margin: 0px 10px 10px 0px;
+    float: left;
+  }
+  &__image-second {
+    width: 15%;
+    margin: 10px 0px 10px 10px;
+    float: right;
+  }
+  &__image-third {
+    width: 10%;
+    margin: 10px 0px 10px 10px;
+    float: right;
+  }
+  &__image-fourth {
+    width: 35%;
+    margin: 10px 10px 10px 0px;
+    float: left;
+  }
+  &__image-fifth {
+    width: 50%;
+    margin: 10px 0px 10px 10px;
+    float: right;
+  }
+  &__image-sixth {
+    width: 30%;
+    margin: 10px 10px 10px 0px;
+    float: left;
+  }
+  &__image-last {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/*With zeal end*/
+
 @import "media";
