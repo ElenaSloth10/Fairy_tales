@@ -263,3 +263,33 @@
 }
 
 /*Kaminchyk and Prominchyk end*/
+
+/*With zeal start*/
+
+@media (max-width: 700px) {
+  .h1-withZeal {
+    font-size: 30px;
+    margin: 30px 0px 30px;
+  }
+  .section-withZeal{
+    &__text {
+      line-height: 30px;
+    }
+    &__image-first {
+      width: 25%;
+    }
+    &__image-fourth{
+      width: 45%;
+      margin: 10px 10px 10px 0px;
+      float: left;
+    }
+    &__image-sixth{
+      width: 50%;
+    }
+    &__image-last{
+      width: 100%;
+    }
+  }
+}
+
+/*With zeal end*/
