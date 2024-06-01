@@ -541,7 +541,7 @@ a {
 
 /*Kaminchyk and Prominchyk start*/
 .body-kaminchykProminchyk {
-  background: #85c9a9;
+  background: radial-gradient(at 80% 20%, #85c9a9, #4b9da0);
   background-repeat: no-repeat;
 }
 
@@ -599,7 +599,7 @@ a {
 
 /*With zeal start*/
 .body-withZeal {
-  background: #66b5bb;
+  background: radial-gradient(at 20% 25%, #4faad4, #2e8d94);
   background-repeat: no-repeat;
 }
 
@@ -649,8 +649,13 @@ a {
     margin: 10px 10px 10px 0px;
     float: left;
   }
+  &__image-seventh {
+    width: 50%;
+    margin: 10px 0px 10px 10px;
+    float: right;
+  }
   &__image-last {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
   }
 }
