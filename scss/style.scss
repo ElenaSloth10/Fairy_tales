@@ -662,4 +662,71 @@ a {
 
 /*With zeal end*/
 
+/*catch The Glare start*/
+.body-catchTheGlare {
+  background: linear-gradient(0deg, #0a305a 50%, #307090 100%);
+  /*background: radial-gradient(at 3% 95%, #4bacd3, #283180);*/
+  background-repeat: no-repeat;
+}
+
+.section-catchTheGlare {
+  &__text {
+    font-size: clamp(16px, 2vw, 26px);
+    line-height: 50px;
+  }
+  &__text::first-letter {
+    font-size: 50px;
+  }
+  &__text-replica {
+    font-style: italic;
+  }
+  &__placeTime {
+    font-size: 12px;
+    line-height: 50px;
+    text-align: right;
+  }
+  &__image-first {
+    width: 50%;
+    margin: 0px 0px 10px 10px;
+    float: right;
+  }
+  &__image-second {
+    width: 50%;
+    margin: 10px 10px 10px 0px;
+    float: left;
+  }
+  &__image-third {
+    width: 35%;
+    margin: 10px 0px 10px 10px;
+    float: right;
+  }
+  &__image-fourth {
+    width: 40%;
+    margin: 10px 10px 10px 0px;
+    float: left;
+  }
+  &__image-fifth {
+    width: 15%;
+    margin: 10px 7% 10px 10px;
+    float: right;
+  }
+  &__image-sixth {
+    width: 30%;
+    margin: 10px 0px 10px 10px;
+    float: right;
+  }
+  &__image-seventh {
+    width: 50%;
+    margin: 10px 10px 10px 0px;
+    float: left;
+  }
+  &__image-last {
+    width: 70%;
+    margin: 10px 10px 10px 10px;
+    float: right;
+  }
+}
+
+/*catch The Glare end*/
+
 @import "media";
