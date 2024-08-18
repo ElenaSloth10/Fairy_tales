@@ -181,7 +181,7 @@
     &__container {
       padding: 30px 15px 10px 15px;
     }
-    &__logo{
+    &__logo {
       font-size: 17px;
     }
   }
@@ -196,30 +196,33 @@
     font-size: 30px;
     margin: 30px 0px 30px;
   }
-  .section-miracleMiddleDay{
-    &__image-third{
+  .section-miracleMiddleDay {
+    &__image-third {
       margin: 10px 0px 10px 10px;
+    }
+    &__text::first-letter {
+      font-size: 40px;
     }
   }
 }
 
 @media (max-width: 500px) {
-  .section-miracleMiddleDay{
+  .section-miracleMiddleDay {
     padding-top: 50px;
-    &__text{
+    &__text {
       line-height: 30px;
     }
-    &__image-first{
+    &__image-first {
       width: 20%;
       margin: -20px 0px 5px 5px;
       float: right;
       animation: turnover 120s linear 0s infinite;
     }
-    &__image-second{
+    &__image-second {
       width: 100%;
       margin: 0px;
     }
-    &__image-third{
+    &__image-third {
       width: 100%;
       margin: 0px 0px 30px 0px;
     }
@@ -235,28 +238,31 @@
     font-size: 30px;
     margin: 30px 0px 30px;
   }
-  .section-kaminchykProminchyk{
-    &__text{
+  .section-kaminchykProminchyk {
+    &__text {
       line-height: 30px;
     }
-    &__image-first{
+    &__text::first-letter {
+      font-size: 40px;
+    }
+    &__image-first {
       width: 40%;
     }
-    &__image-second{
+    &__image-second {
       width: 100%;
       margin: 0px 0px 20px 0px;
     }
-    &__image-third{
+    &__image-third {
       width: 20%;
     }
-    &__image-fourth{
+    &__image-fourth {
       width: 100%;
       margin: 0px;
     }
-    &__image-fifth{
+    &__image-fifth {
       width: 35%;
     }
-    &__image-last{
+    &__image-last {
       width: 100%;
     }
   }
@@ -271,25 +277,78 @@
     font-size: 30px;
     margin: 30px 0px 30px;
   }
-  .section-withZeal{
+  .section-withZeal {
     &__text {
       line-height: 30px;
+    }
+    &__text::first-letter {
+      font-size: 40px;
     }
     &__image-first {
       width: 25%;
     }
-    &__image-fourth{
+    &__image-fourth {
       width: 45%;
       margin: 10px 10px 10px 0px;
       float: left;
     }
-    &__image-sixth{
+    &__image-sixth {
       width: 50%;
     }
-    &__image-last{
+    &__image-last {
       width: 100%;
     }
   }
 }
 
 /*With zeal end*/
+
+/*catch The Glare start*/
+@media (max-width: 700px) {
+  .h1-catchTheGlare {
+    font-size: 27px;
+    margin: 30px 0px 30px;
+  }
+  .section-catchTheGlare {
+    &__text {
+      line-height: 35px;
+    }
+    &__text::first-letter {
+      font-size: 40px;
+    }
+    &__image-first {
+      width: 100%;
+      margin: 10px 0px 10px 0px;
+    }
+    &__image-second {
+      width: 100%;
+      margin: 10px 0px 10px 0px;
+    }
+    &__image-third {
+      width: 50%;
+      margin: 10px 0px 10px 10px;
+    }
+    &__image-fourth {
+      width: 100%;
+      margin: 10px 0px 10px 0px;
+    }
+    &__image-fifth {
+      width: 25%;
+      margin: 10px 13% 10px 10px;
+    }
+    &__image-sixth {
+      width: 50%;
+      margin: 10px 0px 10px 10px;
+    }
+    &__image-seventh {
+      width: 100%;
+      margin: 10px 0px 10px 0px;
+      float: left;
+    }
+    &__image-last {
+      width: 95%;
+    }
+  }
+}
+
+/*catch The Glare end*/
